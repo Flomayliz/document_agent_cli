@@ -23,7 +23,7 @@ def setup_permissions():
 
     # Define script paths
     scripts = [
-        os.path.join(script_dir, "user_cli.sh"),
+        os.path.join(script_dir, "agent_cli.sh"),
         os.path.join(script_dir, "admin_cli.sh"),
         os.path.join(script_dir, "setup_admin_env.sh"),
     ]

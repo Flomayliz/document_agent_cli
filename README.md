@@ -48,7 +48,7 @@ cd document_agent_cli
 chmod +x ./scripts/setup_cli_env.sh
 
 # Run the environment setup script
-./scripts/setup_cli_env.sh
+./scripts/setup_cli_env.sh # This will require to logout/login!
 ```
 
 ### Project Installation
@@ -114,7 +114,7 @@ First, set up your authentication:
 export APP_API_TOKEN=<your-key>
 
 # Launch the user CLI
-pdm run user_cli
+pdm run agent_cli
 ```
 
 ![Agent CLI Example](images/agent_cli.gif)

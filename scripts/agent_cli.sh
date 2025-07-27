@@ -14,4 +14,4 @@ if [ -z "$APP_API_TOKEN" ] && [[ ! "$*" == *"--token"* ]] && [[ ! "$*" == *"-t"*
 fi
 
 # Run the CLI
-python -m app.cli.user_cli "$@"
+python -m app.cli.agent_cli "$@"

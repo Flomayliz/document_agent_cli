@@ -12,18 +12,22 @@ dependencies = [
 ]
 requires-python = ">=3.10"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+exclude = ["tests*"]
 
 
 [tool.pdm]
 distribution = true
 
 [tool.pdm.scripts]
-agent_cli = "scripts/user_cli.sh"
+agent_cli = "scripts/agent_cli.sh"
 admin_cli = "scripts/admin_cli.sh"
 setup_permissions = "python3 scripts/setup_permissions.py"
 
