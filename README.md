@@ -41,7 +41,7 @@ A powerful command-line interface for document management and AI-powered questio
 
 ```bash
 # Clone the repository
-git clone git@github.com:Flomayliz/document_agent_cli.git
+git clone https://github.com/Flomayliz/document_agent_cli.git
 cd document_agent_cli
 
 # Make the environment setup script executable
